@@ -1,0 +1,16 @@
+[build-system]
+requires = ["sip >=6, <7"]
+build-backend = "sipbuild.api"
+
+[project]
+name = "fib"
+version = "1.0.0"
+dependencies = []
+
+[tool.sip.metadata]
+module = "fib"
+name = "fib"
+version = "1.0.0"
+
+
+# [tool.sip.configuration]

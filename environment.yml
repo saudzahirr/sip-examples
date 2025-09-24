@@ -1,0 +1,8 @@
+name: sipBuild
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - libpython-static
+  - pip:
+    - sip==6.10.0

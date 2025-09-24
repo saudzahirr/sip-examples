@@ -1,0 +1,16 @@
+[build-system]
+requires = ["sip >=6, <7"]
+build-backend = "sipbuild.api"
+
+[project]
+name = "fib"
+version = "1.0.0"
+authors = [{ name = "Saud Zahir", email = "m.saud.zahir@gmail.com" }]
+description = "A simple C Fibonacci library wrapped with SIP"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.sip.bindings.fib]
+sources = ["fib.c"]
+headers = ["fib.h"]
+include-dirs = ["."]
