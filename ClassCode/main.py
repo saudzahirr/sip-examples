@@ -1,4 +1,4 @@
-import point # type: ignore
+import point  # type: ignore
 
 p1 = point.Point(1, 2)
 p2 = point.Point(4, 6)

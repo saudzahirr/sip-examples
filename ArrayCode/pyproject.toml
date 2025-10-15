@@ -1,0 +1,16 @@
+[build-system]
+requires = ["sip >=6, <7"]
+build-backend = "sipbuild.api"
+
+[project]
+name = "scale_array"
+version = "1.0.0"
+authors = [{ name = "Saud Zahir", email = "m.saud.zahir@gmail.com" }]
+description = "A simple C++ Point Class library wrapped with SIP"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.sip.bindings.scale_array]
+sources = ["scale_array.cpp"]
+headers = ["scale_array.h"]
+include-dirs = ["."]
